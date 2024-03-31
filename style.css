@@ -1,0 +1,95 @@
+header {
+    height: 150px auto;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: block;
+}
+
+body {
+    background-color: rgba(144, 238, 144, 0.508);
+}
+
+h1 { 
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#nav ul{
+    margin: 0px;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav a:hover{
+    background-color:gold;
+}
+
+a {
+    display: block;
+    text-decoration: none; 
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#artigo {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 25px 25px 25px;
+}
+
+#video {
+    position: relative;
+    background-color: chocolate;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    text-decoration: none;
+}
+
+footer li {
+    margin:10px;
+}
+
+footer a:hover {
+    font-size: 1.3em;
+    color:darkblue;
+}
