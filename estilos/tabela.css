@@ -1,0 +1,59 @@
+h1, h2 {
+    text-align: center;
+}
+
+/* #conteiner { 
+    overflow-x: auto;
+//isso faz com que apenas a tabela tenha rolagem lateral quando
+//ela não couber na tela, porém quebra o cabeçalho fixo
+} */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 800px;
+    height: auto;
+    position: relative;
+}
+
+caption {
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgba(91, 91, 91, 0.7);
+}
+
+thead, tfoot {
+    background-color: #383838;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #383838;
+}
+
+td, th {
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td:hover {
+    transform: scale(1.1);
+    background-color: tomato;
+    transition: background-color 1s;
+}
+
+p {
+    padding-top: 80px;
+    margin: auto;
+    width: 900px;
+    text-indent: 2.5em;
+    text-align: justify;
+}

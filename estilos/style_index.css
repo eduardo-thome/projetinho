@@ -8,6 +8,7 @@ header {
 
 body {
     background-color: rgba(144, 238, 144, 0.508);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 { 
@@ -16,6 +17,8 @@ h1 {
 }
 
 h2 {
+    margin-top: 90px;
+    margin-bottom: 0px;
     text-align:center;
 }
 
@@ -27,7 +30,8 @@ picture {
 p {
     text-indent: 2.5em;
     text-align: justify;
-    padding-bottom: 2em;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 #nav ul{
@@ -59,41 +63,30 @@ a {
 #artigo {
     max-width: 1000px;
     margin: auto;
-    padding: 0 25px 25px 25px;
     font-size: 1.3em;
     line-height: 1.5em;
 }
 
 #artigo p{
-    padding: 20px;
-    background-image: url('imagens/galo.jpg');
-    background-position: center right;
+    background-image: url('../imagens/galo.jpg');
+    background-position: top right;
     color: rgb(241, 236, 236);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.58);
     background-size: cover;
     background-attachment: fixed;
+    padding: 30px;
 }
 
 #artigo2 {
     max-width: 1000px;
     margin: auto;
-    padding: 0 25px 25px 25px;
     font-size: 1.3em;
     line-height: 1.5em;
 }
 
-#artigo2 p{
-    padding: 20px;
-    color: rgb(0, 0, 0);
-}
-
 #video {
     position: relative;
-    background-color: rgba(45, 83, 255, 0.664);
     height: 0px;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 15px;
     padding-bottom: 59%;
 }
 
