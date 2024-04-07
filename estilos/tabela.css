@@ -15,6 +15,7 @@ table {
     width: 800px;
     height: auto;
     position: relative;
+    margin-bottom: 80px;
 }
 
 caption {
@@ -56,4 +57,11 @@ p {
     width: 900px;
     text-indent: 2.5em;
     text-align: justify;
+}
+
+#iframes {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 30px;
 }
