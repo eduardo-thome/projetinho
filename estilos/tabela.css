@@ -8,6 +8,10 @@ h1, h2 {
 //ela não couber na tela, porém quebra o cabeçalho fixo
 } */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 table {
     margin: auto;
     border-collapse: collapse;
