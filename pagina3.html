@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina3.css">
     <title>Pagina 3</title>
 </head>
 <body>
 
-    <h1><a href="index.html">&lt &lt Voltar para a Página 1</a></h1>
+    <h1><a href="index.html">&lt &lt Voltar para a Home</a></h1>
 
     <h2><a href="pagina2.html">&lt Voltar para a Página 2</a></h2>
+
+    <p id="h1">
+        <h1>Formulário que não envia dado nenhum óóó &#x1F622</h1>
+    </p>
     
+    <div id="conteiner">
+        <form action="" method="post">
+            <p><label for="id_email">email</label><input type="email" name="email" id="id_email" placeholder="e-mail"></p>
+            <p><label for="id_password">senha</label><input type="password" name="password" id="id_password" placeholder="senha"></p>
+            <p>
+                <fieldset>
+                    <label for="eu">sou um macaco</label><input type="radio" name="sou" id="eu" checked><br>
+                    <label for="amigo">meu amigo da escola é um macaco</label><input type="radio" name="sou" id="amigo">
+                </fieldset>
+            </p>
+            <p>
+                <label for="id_seila">Gênero kkkk:</label>
+                <input type="text" name="seila" id="id_seila" list="valores">
+                <datalist id="valores">
+                    <option value="eba aqui da pra escrever também..."></option>
+                    <option value="cis"></option>
+                    <option value="trans"></option>
+                    <option value="transformer"></option>
+                    <option value="helicóptero de combate apache"></option>
+                </datalist>
+            </p>
+            <p><label for="id_escolha">o que que acho?</label>
+                <select name="escolha" id="id_escolha">
+                    <option value="bão">Bão</option>
+                    <option value="muito bão">Muito bão</option>
+                    <option value="muito bão mesmo hihihi">Muito bão mesmo</option>
+                </select>
+            </p>
+            <p>
+                <label for="id_comentario">obs sobre o que que acho:</label><br>
+                <textarea name="escolha" id="id_comentario" cols="30" rows="10"></textarea> 
+            </p>
+            <p><label for="termos_uso">aceite os <a href="">termos de uso</a> imediatamente!</label><input type="checkbox" name="termos" id="termos_uso" checked></p>
+            <p><input type="submit" value="Enviar"><input type="reset" value="Limpar"></p>
+        </form>
+    </div>
+
 </body>
 </html>
